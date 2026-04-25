@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Lista de Compras</title>
+
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#4f46e5" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Lista de Compras</h1>
+
+    <form id="item-form">
+      <input type="hidden" id="item-id" />
+
+      <input type="text" id="name" placeholder="Nome do item" required />
+      <input type="text" id="note" placeholder="Observação (opcional)" />
+
+      <button type="submit">Adicionar</button>
+    </form>
+
+    <p id="message"></p>
+
+    <div id="items-list"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
