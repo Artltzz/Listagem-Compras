@@ -1,3 +1,5 @@
+# 🛒 Lista de Compras
+
 Aplicação full stack simples para gerenciamento de lista de compras, com CRUD completo e interface web.
 
 ---
@@ -84,3 +86,6 @@ DELETE /api/items/:id → remove item
 - Marcar como comprado
 - Remover itens
 - Interface simples e responsiva
+
+
+
